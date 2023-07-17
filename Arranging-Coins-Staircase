@@ -1,0 +1,14 @@
+#include <stdio.h>
+int main()
+{
+    int n,k,i,count=0;
+    scanf("%d",&n);
+    k=n;
+    for(i=1;i<=k;i++)
+    {
+        if(i<=k)
+        count++;
+        k-=i;
+    }
+    printf("%d",count);
+}
